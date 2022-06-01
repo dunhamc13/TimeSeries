@@ -703,6 +703,7 @@ def ed(path, attack, defense, log_name,grads, num_sybils=1):
     distance_calc = smp.euclidean_distances(grads)
     normalized = 2.*(distance_calc - np.min(distance_calc))/np.ptp(distance_calc)-1
     sm = normalized - np.eye(n_clients)
+    print("ed is\n{}".format(sm))
     prc = 0.05 # adjust value to improve results
     #print("ED Similarity is\n {}".format(sm))
     #with open(path + attack +'_'+ str(num_sybils) +'_sybil_'+ defense +'_'+ log_name,'a') as f:
@@ -715,11 +716,30 @@ def ed(path, attack, defense, log_name,grads, num_sybils=1):
     #    f.write("\nMaxsm is\n {}".format(maxsm))
     #    f.close()
   
-    wv, alpha = pardonWV(n_clients, maxsm, sm, prc)
-        #print("ED wv is {}".format(wv))
-        #with open(path + attack +'_'+ str(num_sybils) +'_sybil_'+ defense +'_'+ log_name,'a') as f:
-        #    f.write("\n\nED wv is {}\n".format(wv))
-        #    f.close()
+    # pardoning
+    for i in range(n_clients):
+        for j in range(n_clients):
+            if i == j:
+                continue
+            if maxsm[i] < maxsm[j]:
+                sm[i][j] = sm[i][j] * maxsm[i] / maxsm[j] * prc
+    wv = 1 - (np.max(sm, axis=1))
+
+    wv[wv > 1] = 1
+    wv[wv < 0] = 0
+
+    alpha = np.max(sm, axis=1)
+
+    # Rescale so that max value is wv
+    wv = wv / np.max(wv)
+    wv[(wv == 1)] = .99
+
+    # Logit function
+    wv = (np.log(wv / (1 - wv)) + 0.5)
+    wv[(np.isinf(wv) + wv > 1)] = 1
+    wv[(wv < 0)] = 0
+
+    # wv is the weight
     return wv,alpha
 
 
@@ -730,6 +750,7 @@ def manhattan(path, attack, defense, log_name,grads, num_sybils=1):
     distance_calc = smp.manhattan_distances(grads)
     normalized = 2.*(distance_calc - np.min(distance_calc))/np.ptp(distance_calc)-1
     sm = normalized - np.eye(n_clients)
+    print("mn is \n{}".format(sm))
     prc = 0.05 # adjust value to improve results
     #print("Manhattan Similarity is\n {}".format(sm))
     #with open(path + attack +'_'+ str(num_sybils) +'_sybil_'+ defense +'_'+ log_name,'a') as f:
@@ -742,11 +763,30 @@ def manhattan(path, attack, defense, log_name,grads, num_sybils=1):
     #    f.write("\nMaxsm is\n {}".format(maxsm))
     #    f.close()
   
-    wv, alpha = pardonWV(n_clients, maxsm, sm, prc)
-    #print("Manhattan wv is {}".format(wv))
-    #with open(path + attack +'_'+ str(num_sybils) +'_sybil_'+ defense +'_'+ log_name,'a') as f:
-    #    f.write("\n\nManhattan wv is {}\n".format(wv))
-    #    f.close()
+    # pardoning
+    for i in range(n_clients):
+        for j in range(n_clients):
+            if i == j:
+                continue
+            if maxsm[i] < maxsm[j]:
+                sm[i][j] = sm[i][j] * maxsm[i] / maxsm[j] * prc
+    wv = 1 - (np.max(sm, axis=1))
+
+    wv[wv > 1] = 1
+    wv[wv < 0] = 0
+
+    alpha = np.max(sm, axis=1)
+
+    # Rescale so that max value is wv
+    wv = wv / np.max(wv)
+    wv[(wv == 1)] = .99
+
+    # Logit function
+    wv = (np.log(wv / (1 - wv)) + 0.5)
+    wv[(np.isinf(wv) + wv > 1)] = 1
+    wv[(wv < 0)] = 0
+
+    # wv is the weight
     return wv,alpha
 
 # Takes in grad
@@ -756,25 +796,44 @@ def foolsGold(path, attack, defense, log_name,grads, num_sybils=1):
     n_clients = len(grads)
     #print("FoolsGold Total Client Grads: {}".format(n_clients))
 
-    cs = smp.cosine_similarity(grads) - np.eye(n_clients)
+    sm = smp.cosine_similarity(grads) - np.eye(n_clients)
+    print("cs is \n{}".format(sm))
     #print("CS Similarity is \n {}".format(cs))
     #with open(path + attack +'_'+ str(num_sybils) +'_sybil_'+ defense +'_'+ log_name,'a') as f:
     #    f.write("\nCS Similarity is\n {}\n".format(cs))
     #    f.close()
-    maxcs = np.max(cs, axis=1)
+    maxsm = np.max(sm, axis=1)
     prc = 1
     #print("Maxcs is \n {}".format(maxcs))
     #with open(path + attack +'_'+ str(num_sybils) +'_sybil_'+ defense +'_'+ log_name,'a') as f:
     #    f.write("\nMaxcs is \n {}\n".format(maxcs)) 
     #    f.close()
 
-    wv, alpha = pardonWV(n_clients, maxcs, cs, prc)
-    #print("FG wv sum weight % is {}".format(wvWeight))
-    #with open(path + attack +'_'+ str(num_sybils) +'_sybil_'+ defense +'_'+ log_name,'a') as f:
-    #    f.write("\nFG wv sum weight % is {}\n".format(wvWeight))
-    #    f.close()
+    # pardoning
+    for i in range(n_clients):
+        for j in range(n_clients):
+            if i == j:
+                continue
+            if maxsm[i] < maxsm[j]:
+                sm[i][j] = sm[i][j] * maxsm[i] / maxsm[j] * prc
+    wv = 1 - (np.max(sm, axis=1))
 
-    return wv, alpha
+    wv[wv > 1] = 1
+    wv[wv < 0] = 0
+
+    alpha = np.max(sm, axis=1)
+
+    # Rescale so that max value is wv
+    wv = wv / np.max(wv)
+    wv[(wv == 1)] = .99
+
+    # Logit function
+    wv = (np.log(wv / (1 - wv)) + 0.5)
+    wv[(np.isinf(wv) + wv > 1)] = 1
+    wv[(wv < 0)] = 0
+
+    # wv is the weight
+    return wv,alpha
 
 def ts_ss(v, eps=1e-15, eps2=1e-4):
     # reusable compute
@@ -808,7 +867,6 @@ def asf(path, attack, defense, log_name,grads, num_sybils=1):
     
     #    3.  TS-SS Triangle Area Similarity - Sector Area Similarity
     v = torch.tensor(grads)
-    print("ASF shape : {}\n {}".format(v))
     # TS-SS normalized
     distance_calc =  ts_ss(v).numpy()
     normalized = 2.*(distance_calc - np.min(distance_calc))/np.ptp(distance_calc)-1
@@ -824,11 +882,30 @@ def asf(path, attack, defense, log_name,grads, num_sybils=1):
     #    f.write("\nMaxsm is\n {}".format(maxsm))
     #    f.close()
   
-    wv, alpha = pardonWV(n_clients, maxsm, sm, prc)
-    #print("ASF wv is {}".format(wv))
-    #with open(path + attack +'_'+ str(num_sybils) +'_sybil_'+ defense +'_'+ log_name,'a') as f:
-    #    f.write("\n\nASF wv is {}\n".format(wv))
-    #    f.close()
+    # pardoning
+    for i in range(n_clients):
+        for j in range(n_clients):
+            if i == j:
+                continue
+            if maxsm[i] < maxsm[j]:
+                sm[i][j] = sm[i][j] * maxsm[i] / maxsm[j] * prc
+    wv = 1 - (np.max(sm, axis=1))
+
+    wv[wv > 1] = 1
+    wv[wv < 0] = 0
+
+    alpha = np.max(sm, axis=1)
+
+    # Rescale so that max value is wv
+    wv = wv / np.max(wv)
+    wv[(wv == 1)] = .99
+
+    # Logit function
+    wv = (np.log(wv / (1 - wv)) + 0.5)
+    wv[(np.isinf(wv) + wv > 1)] = 1
+    wv[(wv < 0)] = 0
+
+    # wv is the weight
     return wv,alpha
 
 

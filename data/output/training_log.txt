@@ -6652,3 +6652,269 @@
 	Correct: 3328	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
 
 	Correct: 3328	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 3328	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 3328	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 5547	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 5547	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 5547	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 5547	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 5547	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 665	Incorrect: 0	normal: 1.000	attack: -1.000	Current Network Accuracy: 1.000 

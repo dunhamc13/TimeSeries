@@ -303,10 +303,10 @@ def main():
     '''
     global_tic = time.perf_counter()
 
-    simulation(config.PATH, config.PATH_IN, config.LOG_NAME, config.TABLE_NAME, config.COMMS_ROUND, config.ATTACK, config.DEFENSE, config.NUM_SYBILS, config.NUM_CLIENTS)
+    #simulation(config.PATH, config.PATH_IN, config.LOG_NAME, config.TABLE_NAME, config.COMMS_ROUND, config.ATTACK, config.DEFENSE, config.NUM_SYBILS, config.NUM_CLIENTS)
     
     #config.BASELINE = True
-    '''
+    
     for a in range(10):
         for i in range(len(config.ATTACK_LIST)):
             config.ATTACK = config.ATTACK_LIST[i]
@@ -344,7 +344,7 @@ def main():
         print("#                      Total time for simulations was {}               #".format(total_time))
         print("###############################################################################")
         print("###############################################################################")
-        '''
+        
 
     '''
        To Test Poison Attacks against Poison Defenses

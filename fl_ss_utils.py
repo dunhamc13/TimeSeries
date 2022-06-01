@@ -511,7 +511,6 @@ def std(a):
     return (np.std(a))
 
 def std_set(a_set):
-    """computes jaccard for all vectors in a set"""
     std_a_set = np.zeros(a_set.shape)    
 
     for x in range(0, len(a_set)):
@@ -522,20 +521,15 @@ def std_set(a_set):
 def get_std(path, attack, defense, log_name,grads, num_sybils=1):
     #### could use scipy logit(grads) here?
     n_clients = len(grads)
-    #print("grads {}".format(len(grads)))
-    #print("Logit Total Client Grads: {}".format(n_clients))
     #    1.  Logit
     std = std_set(grads)
     sm = 2.*(std - np.min(std))/np.ptp(std)-1
-    #sm = normalized - np.eye(n_clients)
     prc = 0.05 # adjust value to improve results
-    #print("ED Similarity is\n {}".format(sm))
     #with open(path + attack +'_'+ str(num_sybils) +'_sybil_'+ defense +'_'+ log_name,'a') as f:
     #    f.write("\nED Similarity is\n {}\n".format(sm))
     #    f.close()
     prc = 1 
     maxsm = np.max(sm, axis=1)
-    #print("Maxsm is\n {}".format(maxsm))
     #with open(path + attack +'_'+ str(num_sybils) +'_sybil_'+ defense +'_'+ log_name,'a') as f:
     #    f.write("\nMaxsm is\n {}".format(maxsm))
     #    f.close()
@@ -543,7 +537,6 @@ def get_std(path, attack, defense, log_name,grads, num_sybils=1):
     prc = 1 
     maxsm = np.max(sm, axis=1)
     wv, alpha = pardonWV(n_clients, maxsm, sm, prc)
-        #print("ED wv is {}".format(wv))
         #with open(path + attack +'_'+ str(num_sybils) +'_sybil_'+ defense +'_'+ log_name,'a') as f:
         #    f.write("\n\nED wv is {}\n".format(wv))
         #    f.close()
@@ -563,22 +556,16 @@ def norm_dist_a_set(a_set):
 ### shows the distrubtion of points by desnity 
 ### gets the 
 def get_norm_dist(path, attack, defense, log_name,grads, num_sybils=1):
-    #### could use scipy logit(grads) here?
     n_clients = len(grads)
-    #print("grads {}".format(len(grads)))
-    #print("Logit Total Client Grads: {}".format(n_clients))
     #    1.  Logit
     nd = norm_dist_a_set(grads)
     sm = 2.*(nd - np.min(nd))/np.ptp(nd)-1
-    #sm = normalized - np.eye(n_clients)
     prc = 0.05 # adjust value to improve results
-    #print("ED Similarity is\n {}".format(sm))
     #with open(path + attack +'_'+ str(num_sybils) +'_sybil_'+ defense +'_'+ log_name,'a') as f:
     #    f.write("\nED Similarity is\n {}\n".format(sm))
     #    f.close()
     prc = 1 
     maxsm = np.max(sm, axis=1)
-    #print("Maxsm is\n {}".format(maxsm))
     #with open(path + attack +'_'+ str(num_sybils) +'_sybil_'+ defense +'_'+ log_name,'a') as f:
     #    f.write("\nMaxsm is\n {}".format(maxsm))
     #    f.close()
@@ -586,7 +573,6 @@ def get_norm_dist(path, attack, defense, log_name,grads, num_sybils=1):
     prc = 1 
     maxsm = np.max(sm, axis=1)
     wv, alpha = pardonWV(n_clients, maxsm, sm, prc)
-        #print("ED wv is {}".format(wv))
         #with open(path + attack +'_'+ str(num_sybils) +'_sybil_'+ defense +'_'+ log_name,'a') as f:
         #    f.write("\n\nED wv is {}\n".format(wv))
         #    f.close()
@@ -620,10 +606,7 @@ def jaccard_a_set(a_set):
 
 ## values of 0 to 1 with 1 being similar 0 is not so we dont' want to pardon these the same way
 def jaccard(path, attack, defense, log_name,grads, num_sybils=1):
-    #### could use scipy logit(grads) here?
     n_clients = len(grads)
-    #print("grads {}".format(len(grads)))
-    #print("Logit Total Client Grads: {}".format(n_clients))
     #    1.  Logit
     sm = jaccard_a_set(grads)
    
@@ -671,17 +654,11 @@ def inv_log_a_set(a_set):
 ## however the inverse of that 0 = negative inf and 1 = pos inf..
 ## no need to pardon this either?
 def get_inv_logit(path, attack, defense, log_name,grads, num_sybils=1):
-    #### could use scipy logit(grads) here?
     n_clients = len(grads)
-    #print("grads {}".format(len(grads)))
-    #print("Logit Total Client Grads: {}".format(n_clients))
     #    1.  Logit
     sm = inv_log_a_set(grads)
     prc = 1 
-
-
     maxsm = np.max(sm, axis=1)
-    #print("Maxsm is\n {}".format(maxsm))
     #with open(path + attack +'_'+ str(num_sybils) +'_sybil_'+ defense +'_'+ log_name,'a') as f:
     #    f.write("\nMaxsm is\n {}".format(maxsm))
     #    f.close()
@@ -689,7 +666,6 @@ def get_inv_logit(path, attack, defense, log_name,grads, num_sybils=1):
     prc = 1 
     maxsm = np.max(sm, axis=1)
     wv, alpha = pardonWV(n_clients, maxsm, sm, prc)
-        #print("ED wv is {}".format(wv))
         #with open(path + attack +'_'+ str(num_sybils) +'_sybil_'+ defense +'_'+ log_name,'a') as f:
         #    f.write("\n\nED wv is {}\n".format(wv))
         #    f.close()
@@ -698,14 +674,11 @@ def get_inv_logit(path, attack, defense, log_name,grads, num_sybils=1):
 
 def ed(path, attack, defense, log_name,grads, num_sybils=1):
     n_clients = len(grads)
-    #print("ED Total Client Grads: {}".format(n_clients))
     #    1.  Euclidean Normalized
     distance_calc = smp.euclidean_distances(grads)
     normalized = 2.*(distance_calc - np.min(distance_calc))/np.ptp(distance_calc)-1
     sm = normalized - np.eye(n_clients)
-    print("ed is\n{}".format(sm))
     prc = 0.05 # adjust value to improve results
-    #print("ED Similarity is\n {}".format(sm))
     #with open(path + attack +'_'+ str(num_sybils) +'_sybil_'+ defense +'_'+ log_name,'a') as f:
     #    f.write("\nED Similarity is\n {}\n".format(sm))
     #    f.close()
@@ -745,14 +718,11 @@ def ed(path, attack, defense, log_name,grads, num_sybils=1):
 
 def manhattan(path, attack, defense, log_name,grads, num_sybils=1):
     n_clients = len(grads)
-    #print("Manhattan Total Client Grads: {}".format(n_clients))
     #    2.  Manhattan Normalized
     distance_calc = smp.manhattan_distances(grads)
     normalized = 2.*(distance_calc - np.min(distance_calc))/np.ptp(distance_calc)-1
     sm = normalized - np.eye(n_clients)
-    print("mn is \n{}".format(sm))
     prc = 0.05 # adjust value to improve results
-    #print("Manhattan Similarity is\n {}".format(sm))
     #with open(path + attack +'_'+ str(num_sybils) +'_sybil_'+ defense +'_'+ log_name,'a') as f:
     #    f.write("\nManhattan Similarity is\n {}\n".format(sm))
     #    f.close()
@@ -794,11 +764,7 @@ def manhattan(path, attack, defense, log_name,grads, num_sybils=1):
 # Get weightings
 def foolsGold(path, attack, defense, log_name,grads, num_sybils=1):
     n_clients = len(grads)
-    #print("FoolsGold Total Client Grads: {}".format(n_clients))
-
     sm = smp.cosine_similarity(grads) - np.eye(n_clients)
-    print("cs is \n{}".format(sm))
-    #print("CS Similarity is \n {}".format(cs))
     #with open(path + attack +'_'+ str(num_sybils) +'_sybil_'+ defense +'_'+ log_name,'a') as f:
     #    f.write("\nCS Similarity is\n {}\n".format(cs))
     #    f.close()
@@ -863,15 +829,12 @@ def ts_ss(v, eps=1e-15, eps2=1e-4):
 # Get weightings
 def asf(path, attack, defense, log_name,grads, num_sybils=1):
     n_clients = len(grads)
-    #print("ASF Total Client Grads: {}".format(n_clients))
-    
     #    3.  TS-SS Triangle Area Similarity - Sector Area Similarity
     v = torch.tensor(grads)
     # TS-SS normalized
     distance_calc =  ts_ss(v).numpy()
     normalized = 2.*(distance_calc - np.min(distance_calc))/np.ptp(distance_calc)-1
     sm = normalized - np.eye(n_clients)
-    #print("ASF Similarity is\n {}".format(sm))
     #with open(path + attack +'_'+ str(num_sybils) +'_sybil_'+ defense +'_'+ log_name,'a') as f:
     #    f.write("\nASF Similarity is\n {}\n".format(sm))
     #    f.close()

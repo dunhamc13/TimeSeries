@@ -307,7 +307,7 @@ def main():
     
     #config.BASELINE = True
     
-    for a in range(10):
+    for a in range(3):
         for i in range(len(config.ATTACK_LIST)):
             config.ATTACK = config.ATTACK_LIST[i]
             for k in range(len(config.NUM_SYBILS_LIST)):

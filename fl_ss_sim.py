@@ -42,10 +42,10 @@ def get_sim_model(timesteps,n_features):
     model = Sequential()
     #model.add(LSTM(20, return_sequences=False, activation='tanh',input_shape=(timesteps, n_features)))
 
-    model.add(Bidirectional(LSTM(100, return_sequences=False, activation='tanh'),input_shape=(timesteps, n_features)))
-    model.add(Dense(50, activation='relu')) 
-    model.add(Dense(25, activation='relu'))
-    model.add(Dense(10, activation='relu'))    
+    model.add(Bidirectional(LSTM(8, return_sequences=False, activation='tanh'),input_shape=(timesteps, n_features)))
+    #model.add(Dense(50, activation='relu')) 
+    #model.add(Dense(25, activation='relu'))
+    #model.add(Dense(10, activation='relu'))    
     
     ####model.add(Bidirectional(LSTM(8, return_sequences=False, activation='tanh'),input_shape=(timesteps, n_features)))
     #model.add(Bidirectional(LSTM(8,batch_input_shape=(batch_size,timesteps, n_features))))
@@ -80,14 +80,14 @@ def model_sim_training(model,x_train,y_train,x_test,y_test,epochs):
                               restore_best_weights=True)
     checkpoint_filepath = './poison_epoch_models/POISON/best_model.h5'
     mc = ModelCheckpoint(filepath=checkpoint_filepath, monitor='binary_accuracy', mode='max', verbose=2, save_best_only=True)
-    batch_size = 1
+    batch_size = 32
     X_train = x_train.copy()
     Y_train = y_train.copy()
     accuracy_callback = AccuracyCallback((X_train, Y_train))
 
 
     class_weights = {0:1.5,1:1.}
-    model = load_model(checkpoint_filepath)
+    #model = load_model(checkpoint_filepath)
     #use verbose = 1 or 2 to see epoch progress pbar... each step is examples / batch
     train_history = model.fit(x_train,
                                 y_train,
@@ -115,7 +115,7 @@ def model_sim_training(model,x_train,y_train,x_test,y_test,epochs):
     plt.xlabel('epoch')
     plt.legend(['train','test'], loc='upper left')
     plt.savefig('train_accuracy.png')
-    plt.show()
+    #plt.show()
 
     plt.plot(train_history.history['loss'])
     plt.plot(train_history.history['val_loss'])
@@ -124,23 +124,12 @@ def model_sim_training(model,x_train,y_train,x_test,y_test,epochs):
     plt.xlabel('epoch')
     plt.legend(['train','test'], loc='upper left')
     plt.savefig('train_loss.png')
-    plt.show()
+    #plt.show()
 
     model = load_model(checkpoint_filepath)
     #model.reset_states()
 
     return model
-
-
-# make a one-step forecast
-def forecast_lstm(model, batch_size, X):
-    ################ poison config was 1 - for 1 step prediction, i think i want the teimestps
-    X = X.reshape(1, 1, len(X))
-    yhat = model.predict(X, batch_size=batch_size)
-    print(yhat)
-    model.reset_states()
-    print("model.reset forcast")
-    return yhat[0,0]
 
 def model_sim_evaluate(path, attack, defense, log_name,model,x_train,y_train,x_test,y_test,epochs, num_sybils):
     '''
@@ -182,7 +171,13 @@ def model_sim_evaluate(path, attack, defense, log_name,model,x_train,y_train,x_t
     f1 = f1_score(test_labels, test_pred, zero_division=0)
     precision = precision_score(test_labels, test_pred)
     classes_report = classification_report(test_labels, test_pred)
-    matrix = confusion_matrix(test_labels, test_pred, labels=[1,0])
+    #matrix = confusion_matrix(test_labels, test_pred)
+    unique_label = np.unique([test_labels, test_pred])
+    cmtx = pd.DataFrame(
+        confusion_matrix(test_labels, test_pred, labels=unique_label), 
+        index=['true:{:}'.format(x) for x in unique_label], 
+        columns=['pred:{:}'.format(x) for x in unique_label]
+    )
 
 
     list_data = [epochs, testAcc,f1, precision]
@@ -195,13 +190,16 @@ def model_sim_evaluate(path, attack, defense, log_name,model,x_train,y_train,x_t
             f.write('\n############################################################################################\n')
             f.write('\ncomm_round: {} | global_test_acc: {:.3%} | global_f1: {} | global_precision: {}\n'.format(epochs, testAcc, f1, precision))
             f.write(str(classes_report))
-            f.write("\nAccuracy per class:\n{}\n{}\n".format(matrix,matrix.diagonal()/matrix.sum(axis=1)))
+            #f.write("\nAccuracy per class:\n{}\n{}\n".format(matrix,matrix.diagonal()/matrix.sum(axis=1)))
     f.close()
     print('\n#####################         POISON         ###############################################\n')
     print('\n############################################################################################\n')
     print('\ncomm_round: {} |global_train_acc: {:.3%}|| global_test_acc: {:.3%} | global_f1: {} | global_test_precision: {}'.format(epochs, trainAcc, testAcc, f1, precision))
     print(classes_report)
-    print("\nAccuracy per class:\n{}\n{}\n".format(matrix,(matrix.diagonal()/matrix.sum(axis=1))))
+    #print("\nAccuracy per class:\n{}\n{}\n".format(matrix,(matrix.diagonal()/matrix.sum(axis=1))))
+    #print(matrix)
+    print(cmtx)
+
    
 classes = ['1.0','0.0']
 class AccuracyCallback(tf.keras.callbacks.Callback):

@@ -42880,3 +42880,1797 @@
 	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
 
 	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 
+
+	Correct: 6868	Incorrect: 0	1.0: 1.000	0.0: -1.000	Current Network Accuracy: 1.000 

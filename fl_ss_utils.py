@@ -377,6 +377,34 @@ def model_training(model,x_train,y_train,epochs=4000):
     #with open(config.PATH + config.ATTACK +'_'+ str(config.NUM_SYBILS) +'_sybil_'+ config.DEFENSE +'_IDS_model_'+ config.LOG_NAME,'a') as f:
     #    f.write("\n\nBest Training IDS Accuracy:\n{}".format(max(train_history.history['binary_accuracy'])))
     #f.close()
+    #print("\n\nBest Training Poisoning Loss:\n{}".format(max(train_history.history['loss'])))
+    #with open(config.PATH + config.ATTACK +'_'+ str(config.NUM_SYBILS) +'_sybil_'+ config.DEFENSE +'_IDS_model_'+ config.LOG_NAME,'a') as f:
+    #    f.write("\n\nBest Training IDS Accuracy:\n{}".format(max(train_history.history['binary_accuracy'])))
+    #f.close()
+
+    '''
+    print(train_history.history.keys())
+    plt.plot(train_history.history['binary_accuracy'])
+    plt.plot(train_history.history['val_binary_accuracy'])
+    plt.title('Model Accuracy')
+    plt.ylabel('accuracy')
+    plt.xlabel('epoch')
+    plt.legend(['train','test'], loc='upper left')
+    plt.savefig('train_accuracy.png')
+    plt.show()
+
+    plt.plot(train_history.history['binary_loss'])
+    plt.plot(train_history.history['val_binary_loss'])
+    plt.title('Model Loss')
+    plt.ylabel('loss')
+    plt.xlabel('epoch')
+    plt.legend(['train','test'], loc='upper left')
+    plt.savefig('train_loss.png')
+    plt.show()
+    '''
+    
+    #loss_fig = proto_distribution.plot(kind='bar', figsize=(20,16), fontsize=14).get_figure()
+    #loss_fig.savefig('proto_distr.pdf')
     model = load_model(checkpoint_filepath)
 
 

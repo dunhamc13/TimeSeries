@@ -5,7 +5,7 @@
 ###############################################################################
 import numpy as np
 
-POISON_CSV = 'C:\\Users\\ChristianDunham\\source\\repos\\Intrusion_Detection\\Poison\ /Training\\data\\input\\poison_training.csv'
+POISON_CSV = 'C:\\Users\\ChristianDunham\\source\\repos\\Intrusion_Detection\\data\\input\\poison_training.csv'
 PATH_IN = 'C:\\Users\\ChristianDunham\\source\\repos\\Intrusion_Detection\\data\\input\\'
 PATH_OUT = 'C:\\Users\\ChristianDunham\\source\\repos\\Intrusion_Detection\\data\\output\\'
 ATTACK_LIST = ['label','backdoor','dba']

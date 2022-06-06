@@ -321,3 +321,177 @@ Total Client Grads scaled: 30 unscaled 30
 aggregate_gradients Total Client Grads: 30
 
 Simulate Models Sent to Clients
+
+
+Total Client Grads scaled: 30 unscaled 30
+
+aggregate_gradients Total Client Grads: 30
+
+Simulate Models Sent to Clients
+
+
+Total Client Grads scaled: 30 unscaled 30
+
+aggregate_gradients Total Client Grads: 30
+
+Simulate Models Sent to Clients
+
+
+Total Client Grads scaled: 30 unscaled 30
+
+aggregate_gradients Total Client Grads: 30
+
+Simulate Models Sent to Clients
+
+
+Total Client Grads scaled: 30 unscaled 30
+
+aggregate_gradients Total Client Grads: 30
+
+Simulate Models Sent to Clients
+
+
+Total Client Grads scaled: 30 unscaled 30
+
+aggregate_gradients Total Client Grads: 30
+
+Simulate Models Sent to Clients
+
+
+Total Client Grads scaled: 30 unscaled 30
+
+aggregate_gradients Total Client Grads: 30
+
+Simulate Models Sent to Clients
+
+
+Total Client Grads scaled: 30 unscaled 30
+
+aggregate_gradients Total Client Grads: 30
+
+Simulate Models Sent to Clients
+
+
+Total Client Grads scaled: 30 unscaled 30
+
+aggregate_gradients Total Client Grads: 30
+
+Simulate Models Sent to Clients
+
+
+Total Client Grads scaled: 30 unscaled 30
+
+aggregate_gradients Total Client Grads: 30
+
+Simulate Models Sent to Clients
+
+
+Total Client Grads scaled: 30 unscaled 30
+
+aggregate_gradients Total Client Grads: 30
+
+Simulate Models Sent to Clients
+
+
+Total Client Grads scaled: 30 unscaled 30
+
+aggregate_gradients Total Client Grads: 30
+
+Simulate Models Sent to Clients
+
+
+Total Client Grads scaled: 30 unscaled 30
+
+aggregate_gradients Total Client Grads: 30
+
+Simulate Models Sent to Clients
+
+
+Total Client Grads scaled: 30 unscaled 30
+
+aggregate_gradients Total Client Grads: 30
+
+Simulate Models Sent to Clients
+
+
+Total Client Grads scaled: 30 unscaled 30
+
+aggregate_gradients Total Client Grads: 30
+
+Simulate Models Sent to Clients
+
+
+Total Client Grads scaled: 30 unscaled 30
+
+aggregate_gradients Total Client Grads: 30
+
+Simulate Models Sent to Clients
+
+
+Total Client Grads scaled: 30 unscaled 30
+
+aggregate_gradients Total Client Grads: 30
+
+Simulate Models Sent to Clients
+
+
+Total Client Grads scaled: 30 unscaled 30
+
+aggregate_gradients Total Client Grads: 30
+
+Simulate Models Sent to Clients
+
+
+Total Client Grads scaled: 30 unscaled 30
+
+aggregate_gradients Total Client Grads: 30
+
+Simulate Models Sent to Clients
+
+
+Total Client Grads scaled: 30 unscaled 30
+
+aggregate_gradients Total Client Grads: 30
+
+Simulate Models Sent to Clients
+
+
+Total Client Grads scaled: 30 unscaled 30
+
+aggregate_gradients Total Client Grads: 30
+
+Simulate Models Sent to Clients
+
+
+Total Client Grads scaled: 30 unscaled 30
+
+aggregate_gradients Total Client Grads: 30
+
+Simulate Models Sent to Clients
+
+
+Total Client Grads scaled: 30 unscaled 30
+
+aggregate_gradients Total Client Grads: 30
+
+Simulate Models Sent to Clients
+
+
+Total Client Grads scaled: 30 unscaled 30
+
+aggregate_gradients Total Client Grads: 30
+
+Simulate Models Sent to Clients
+
+
+Total Client Grads scaled: 30 unscaled 30
+
+aggregate_gradients Total Client Grads: 30
+
+Simulate Models Sent to Clients
+
+
+Total Client Grads scaled: 30 unscaled 30
+
+aggregate_gradients Total Client Grads: 30
+Total time for simulation : backdoor_5_sybils_sim was 9:47:45

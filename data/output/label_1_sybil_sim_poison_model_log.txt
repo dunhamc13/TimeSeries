@@ -6149,3 +6149,15 @@ Best Training Poisoning Accuracy:
 
 Best Training Poisoning Accuracy:
 0.7075098752975464
+
+Best Training Poisoning Accuracy:
+0.9938114285469055
+
+Best Training Poisoning Accuracy:
+0.9919912815093994
+
+Best Training Poisoning Accuracy:
+0.9945394992828369
+
+Best Training Poisoning Accuracy:
+0.991081178188324

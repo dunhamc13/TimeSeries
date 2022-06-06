@@ -87,7 +87,7 @@ def model_sim_training(model,x_train,y_train,x_test,y_test,epochs):
 
 
     class_weights = {0:1.5,1:1.}
-
+    model = load_model(checkpoint_filepath)
     #use verbose = 1 or 2 to see epoch progress pbar... each step is examples / batch
     train_history = model.fit(x_train,
                                 y_train,
@@ -106,6 +106,26 @@ def model_sim_training(model,x_train,y_train,x_test,y_test,epochs):
     with open(config.PATH + config.ATTACK +'_'+ str(config.NUM_SYBILS) +'_sybil_'+ config.DEFENSE +'_POISON_model_'+ config.LOG_NAME,'a') as f:
         f.write("\n\nBest Training Poisoning Accuracy:\n{}".format(max(train_history.history['binary_accuracy'])))
     f.close()
+
+    print(train_history.history.keys())
+    plt.plot(train_history.history['binary_accuracy'])
+    plt.plot(train_history.history['val_binary_accuracy'])
+    plt.title('Model Accuracy')
+    plt.ylabel('accuracy')
+    plt.xlabel('epoch')
+    plt.legend(['train','test'], loc='upper left')
+    plt.savefig('train_accuracy.png')
+    plt.show()
+
+    plt.plot(train_history.history['loss'])
+    plt.plot(train_history.history['val_loss'])
+    plt.title('Model Loss')
+    plt.ylabel('loss')
+    plt.xlabel('epoch')
+    plt.legend(['train','test'], loc='upper left')
+    plt.savefig('train_loss.png')
+    plt.show()
+
     model = load_model(checkpoint_filepath)
     #model.reset_states()
 
@@ -152,7 +172,7 @@ def model_sim_evaluate(path, attack, defense, log_name,model,x_train,y_train,x_t
     train_pred = (model.predict(x_train, steps=None, callbacks=None, max_queue_size=10, workers=1, use_multiprocessing=False,verbose=0) > .5).astype("int32") 
     #model.reset_states()
     train_labels = np.copy(y_train).astype("int32")
-    test_pred = (model.predict(x_test) > .7).astype("int32") 
+    test_pred = (model.predict(x_test, steps=None, callbacks=None, max_queue_size=10, workers=1, use_multiprocessing=False,verbose=0) > .5).astype("int32") 
     #model.reset_states()
     test_labels = np.copy(y_test).astype("int32")
     print("predicted value:\n{}".format(test_pred))

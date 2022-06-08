@@ -356,17 +356,21 @@ def model_training(model,x_train,y_train,epochs=4000):
                               restore_best_weights=True)
     checkpoint_filepath = './ids_epoch_models/IDS/best_model.h5'
     mc = ModelCheckpoint(filepath=checkpoint_filepath, monitor='binary_accuracy', mode='max', verbose=0, save_best_only=True)
-    batch_size = 5
+    ###### Change me back to 5
+    ###### Swapped from 5 to speed things up for generating data
+    #batch_size = 5
+    batch_size = 32
     X_train = x_train.copy()
     Y_train = y_train.copy()
     accuracy_callback = AccuracyCallback((X_train, Y_train))
 
-
+    class_weights = {0:1.25,1:1.}
     #use verbose = 1 or 2 to see epoch progress pbar... each step is examples / batch
     train_history = model.fit(x_train,
                               y_train,
                               epochs=epochs,
                               validation_split=0.2,
+                              class_weight=class_weights,
                               shuffle=False,
                               #validation_data=(x_test, (y_test, x_test)),
                               batch_size=batch_size,
@@ -422,7 +426,13 @@ def model_evaluate(path, attack, defense, log_name,model,x_train,y_train,x_test,
     f1 = f1_score(test_labels, test_pred, zero_division=0)
     precision = precision_score(test_labels, test_pred)
     classes_report = classification_report(test_labels, test_pred)
-    matrix = confusion_matrix(test_labels, test_pred, labels=[1,0])
+    #matrix = confusion_matrix(test_labels, test_pred, labels=[1,0])
+    unique_label = [0,1]
+    cmtx = pd.DataFrame(
+        confusion_matrix(test_labels, test_pred, labels=unique_label), 
+        index=['true:{:}'.format(x) for x in unique_label], 
+        columns=['pred:{:}'.format(x) for x in unique_label]
+    )
 
 
     list_data = [epochs, testAcc,f1, precision]
@@ -435,13 +445,14 @@ def model_evaluate(path, attack, defense, log_name,model,x_train,y_train,x_test,
             f.write('\n############################################################################################\n')
             f.write('\ncomm_round: {} | global_test_acc: {:.3%} | global_f1: {} | global_precision: {}\n'.format(epochs, testAcc, f1, precision))
             f.write(str(classes_report))
-            f.write("\nAccuracy per class:\n{}\n{}\n".format(matrix,matrix.diagonal()/matrix.sum(axis=1)))
+            #f.write("\nAccuracy per class:\n{}\n{}\n".format(matrix,matrix.diagonal()/matrix.sum(axis=1)))
     f.close()
     print('\n#####################         IDS         ###############################################\n')
     print('\n############################################################################################\n')
     print('\ncomm_round: {} |global_train_acc: {:.3%}|| global_test_acc: {:.3%} | global_f1: {} | global_test_precision: {}'.format(epochs, trainAcc, testAcc, f1, precision))
     print(classes_report)
-    print("\nAccuracy per class:\n{}\n{}\n".format(matrix,(matrix.diagonal()/matrix.sum(axis=1))))
+    #print("\nAccuracy per class:\n{}\n{}\n".format(matrix,(matrix.diagonal()/matrix.sum(axis=1))))
+    print(cmtx)
 
 classes = ['normal','attack']
 class AccuracyCallback(tf.keras.callbacks.Callback):

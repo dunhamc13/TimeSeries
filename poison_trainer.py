@@ -60,7 +60,7 @@ from tensorflow.keras import backend as K
 import time
 from fl_ss_utils import *
 import poison_config
-from fl_ss_sim import *
+from SpaceTime_LSTM import *
 from data_processing_poison import *
 
 ###############################################################################
@@ -86,7 +86,7 @@ def convert(seconds):
 
 def main():
 
-    for i in range(10):
+    for i in range(1):
         global_sim_model = get_sim_model(poison_config.POISON_TIMESTEPS,poison_config.POISON_FEATURES)
         comm_round = poison_config.COMMS_ROUND
         data_process= data_processing_poison()

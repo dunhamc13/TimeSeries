@@ -86,7 +86,7 @@ class data_processing_poison:
         print("normal (0) abnormal(1)", attack_distribution)
         print()
         
-        train, test = train_test_split(df, test_size=0.3, shuffle=False)
+        train, test = train_test_split(df, test_size=0.3, random_state=16, shuffle=False)
         train = np.array(train)
         test = np.array(test)
         x_train = np.delete(train,poison_config.POISON_FEATURES,1)

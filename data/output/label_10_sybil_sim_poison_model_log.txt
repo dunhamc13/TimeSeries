@@ -12444,3 +12444,18 @@ poison scaling shape: (35, 1)
  [1]
  [1]
  [1]]scaled_weight_list: Rows 35 cols 21Adding node: 0 value: [1] to honest_clientsAdding node: 1 value: [1] to honest_clientsAdding node: 2 value: [1] to honest_clientsAdding node: 3 value: [1] to honest_clientsAdding node: 4 value: [1] to honest_clientsAdding node: 5 value: [1] to honest_clientsAdding node: 6 value: [1] to honest_clientsAdding node: 7 value: [1] to honest_clientsAdding node: 8 value: [1] to honest_clientsAdding node: 9 value: [1] to honest_clientsAdding node: 10 value: [1] to honest_clientsAdding node: 11 value: [1] to honest_clientsAdding node: 12 value: [1] to honest_clientsAdding node: 13 value: [1] to honest_clientsAdding node: 14 value: [1] to honest_clientsAdding node: 15 value: [1] to honest_clientsAdding node: 16 value: [1] to honest_clientsAdding node: 17 value: [1] to honest_clientsAdding node: 18 value: [1] to honest_clientsAdding node: 19 value: [1] to honest_clientsAdding node: 20 value: [1] to honest_clientsAdding node: 21 value: [1] to honest_clientsAdding node: 22 value: [1] to honest_clientsAdding node: 23 value: [1] to honest_clientsAdding node: 24 value: [1] to honest_clientsAdding node: 25 value: [1] to honest_clientsAdding node: 26 value: [1] to honest_clientsAdding node: 27 value: [1] to honest_clientsAdding node: 28 value: [1] to honest_clientsAdding node: 29 value: [1] to honest_clientsAdding node: 30 value: [1] to honest_clientsAdding node: 31 value: [1] to honest_clientsAdding node: 32 value: [1] to honest_clientsAdding node: 33 value: [1] to honest_clientsAdding node: 34 value: [1] to honest_clients
+
+Best Training Poisoning Accuracy:
+0.9342549443244934
+
+Best Training Poisoning Accuracy:
+0.9257354140281677
+
+Best Training Poisoning Accuracy:
+0.8952369093894958
+
+Best Training Poisoning Accuracy:
+0.912739098072052
+
+Best Training Poisoning Accuracy:
+0.898737370967865

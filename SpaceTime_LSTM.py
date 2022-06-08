@@ -37,27 +37,18 @@ def get_sim_model(timesteps,n_features):
     #then call fit
     
     
-    sgd = gradient_descent_v2.SGD(learning_rate=0.01, momentum=0.9, nesterov=True)
+    #sgd = gradient_descent_v2.SGD(learning_rate=0.01, momentum=0.9, nesterov=True)
     batch_size = poison_config.POISON_BATCH_SIZE
     model = Sequential()
-    #model.add(LSTM(20, return_sequences=False, activation='tanh',input_shape=(timesteps, n_features)))
 
-    model.add(Bidirectional(LSTM(4, return_sequences=False, activation='tanh'),input_shape=(timesteps, n_features)))
-    model.add(Dropout(.3))
-    #model.add(Dense(50, activation='relu')) 
-    #model.add(Dense(25, activation='relu'))
-    #model.add(Dense(10, activation='relu'))    
+    ###these two are good for non statefull
+    #model.add(Bidirectional(LSTM(4, return_sequences=False, activation='tanh'),input_shape=(timesteps, n_features)))
+    #model.add(Dropout(.4))
+
     
-    ####model.add(Bidirectional(LSTM(8, return_sequences=False, activation='tanh'),input_shape=(timesteps, n_features)))
-    #model.add(Bidirectional(LSTM(8,batch_input_shape=(batch_size,timesteps, n_features),stateful=True)))
-    ####model.add(Dense(8, activation='relu'))
-    
-    #model.add(Dense(2, activation='softmax'))
-    #model.add(Dropout(.25))
-    #model.add(LSTM(16))
-    #model.add(Dense(units=1, activation='linear'))
-    #model.add(Dropout(.25))
-    #model.add(Dense(1, activation='softmax'))
+    model.add(Bidirectional(LSTM(8,batch_input_shape=(batch_size,timesteps, n_features),stateful=True)))
+    #model.add(LSTM(8,batch_input_shape=(batch_size,timesteps, n_features),stateful=True))
+
     
     model.add(Dense(1, activation='sigmoid'))
     
@@ -70,7 +61,7 @@ def get_sim_model(timesteps,n_features):
     #with open('C:\\Users\\ChristianDunham\\source\\repos\\Intrusion_Detection\\data\\model_summary.txt','a') as f:
     #        f.write(str(model.summary()))
     #        f.close()
-    print(model.summary())
+    #print(model.summary())
     
 
     #return loaded_model
@@ -90,19 +81,21 @@ def model_sim_training(model,x_train,y_train,x_test,y_test,epochs):
     class_weights = {0:1.25,1:1.}
     #model = load_model(checkpoint_filepath)
     #use verbose = 1 or 2 to see epoch progress pbar... each step is examples / batch
-    train_history = model.fit(x_train,
-                                y_train,
-                                epochs=epochs,
-                                validation_split=.3,
-                                class_weight=class_weights,
-                                shuffle=False,
-                                #validation_data=(x_test, (y_test, x_test)),
-                                #validation_data=(x_test, y_test),
-                                batch_size=batch_size,
-                                verbose=2,
-                                callbacks=[callbacks,mc, accuracy_callback]
-                                )
-    #model.reset_states()
+    for i in range(1):
+        train_history = model.fit(x_train,
+                                    y_train,
+                                    epochs=epochs,
+                                    validation_split=.1,
+                                    class_weight=class_weights,
+                                    shuffle=False,
+                                    #validation_data=(x_test, (y_test, x_test)),
+                                    #validation_data=(x_test, y_test),
+                                    batch_size=batch_size,
+                                    verbose=2,
+                                    #callbacks=[callbacks,mc, accuracy_callback]
+                                    callbacks=[callbacks,mc]
+                                    )
+        model.reset_states()
     print("\n\nBest Training Poisoning Accuracy:\n{}".format(max(train_history.history['binary_accuracy'])))
     with open(config.PATH + config.ATTACK +'_'+ str(config.NUM_SYBILS) +'_sybil_'+ config.DEFENSE +'_POISON_model_'+ config.LOG_NAME,'a') as f:
         f.write("\n\nBest Training Poisoning Accuracy:\n{}".format(max(train_history.history['binary_accuracy'])))
@@ -118,12 +111,12 @@ def model_sim_training(model,x_train,y_train,x_test,y_test,epochs):
     plt.savefig('train_accuracy.png')
     #plt.show()
 
-    plt.plot(train_history.history['loss'])
-    plt.plot(train_history.history['val_loss'])
+    plt.plot(train_history.history['loss'], label="Train")
+    plt.plot(train_history.history['val_loss'], label="Test")
     plt.title('Model Loss')
     plt.ylabel('loss')
     plt.xlabel('epoch')
-    plt.legend(['loss','val_loss'], loc='upper left')
+    #plt.legend(['loss','val_loss'], loc='upper left')
     plt.savefig('train_loss.png')
     #plt.show()
 
@@ -160,10 +153,10 @@ def model_sim_evaluate(path, attack, defense, log_name,model,x_train,y_train,x_t
     #model.reset_states()
     #print("Model Accuracy: %.2f%%" %(scores[1]*100))
     train_pred = (model.predict(x_train,batch_size=poison_config.POISON_BATCH_SIZE, steps=None, callbacks=None, max_queue_size=10, workers=1, use_multiprocessing=False,verbose=0) > .5).astype("int32") 
-    #model.reset_states()
+    model.reset_states()
     train_labels = np.copy(y_train).astype("int32")
     test_pred = (model.predict(x_test,batch_size=poison_config.POISON_BATCH_SIZE, steps=None, callbacks=None, max_queue_size=10, workers=1, use_multiprocessing=False,verbose=0) > .5).astype("int32") 
-    #model.reset_states()
+    model.reset_states()
     test_labels = np.copy(y_test).astype("int32")
     print("predicted value:\n{}".format(test_pred))
     print("label value:\n{}".format(test_labels))

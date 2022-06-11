@@ -43,9 +43,9 @@ def get_sim_model(timesteps,n_features):
 
     ###these two are good for non statefull
     #model.add(Bidirectional(LSTM(4, return_sequences=False, activation='tanh'),input_shape=(timesteps, n_features)))
-    #model.add(Dropout(.4))
+    #model.add(Dropout(.3))
 
-    
+    ####### this one works 
     model.add(Bidirectional(LSTM(8,batch_input_shape=(batch_size,timesteps, n_features),stateful=True)))
     #model.add(LSTM(8,batch_input_shape=(batch_size,timesteps, n_features),stateful=True))
 
@@ -62,6 +62,7 @@ def get_sim_model(timesteps,n_features):
     #        f.write(str(model.summary()))
     #        f.close()
     #print(model.summary())
+
     
 
     #return loaded_model
@@ -81,7 +82,7 @@ def model_sim_training(model,x_train,y_train,x_test,y_test,epochs):
     class_weights = {0:1.25,1:1.}
     #model = load_model(checkpoint_filepath)
     #use verbose = 1 or 2 to see epoch progress pbar... each step is examples / batch
-    for i in range(1):
+    for i in range(poison_config.POISON_TNG_CYCLES):
         train_history = model.fit(x_train,
                                     y_train,
                                     epochs=epochs,
@@ -153,10 +154,10 @@ def model_sim_evaluate(path, attack, defense, log_name,model,x_train,y_train,x_t
     #model.reset_states()
     #print("Model Accuracy: %.2f%%" %(scores[1]*100))
     train_pred = (model.predict(x_train,batch_size=poison_config.POISON_BATCH_SIZE, steps=None, callbacks=None, max_queue_size=10, workers=1, use_multiprocessing=False,verbose=0) > .5).astype("int32") 
-    model.reset_states()
+    #model.reset_states()
     train_labels = np.copy(y_train).astype("int32")
     test_pred = (model.predict(x_test,batch_size=poison_config.POISON_BATCH_SIZE, steps=None, callbacks=None, max_queue_size=10, workers=1, use_multiprocessing=False,verbose=0) > .5).astype("int32") 
-    model.reset_states()
+    #model.reset_states()
     test_labels = np.copy(y_test).astype("int32")
     print("predicted value:\n{}".format(test_pred))
     print("label value:\n{}".format(test_labels))

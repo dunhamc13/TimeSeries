@@ -86,12 +86,12 @@ def convert(seconds):
 
 def main():
 
-    for i in range(1):
+    for i in range(poison_config.POISON_TNG_CYCLES):
         global_sim_model = get_sim_model(poison_config.POISON_TIMESTEPS,poison_config.POISON_FEATURES)
         comm_round = poison_config.COMMS_ROUND
         data_process= data_processing_poison()
         xp_train, xp_test, yp_train, yp_test = data_process.load_data(poison_config.PATH_OUT,poison_config.POISON_CSV,timesteps=80)
-        global_sim_model = model_sim_training(global_sim_model, xp_train, yp_train, xp_test,yp_test,poison_config.POISON_EPOCHS)
+        global_sim_model = model_sim_training(global_sim_model, xp_train, yp_train, xp_test,yp_test,poison_config.POISON_EPOCHS, i)
         global_sim_model.save('./POISON_Persistent_Model/persistent_model_tf',save_format='tf')
         model_sim_evaluate(poison_config.PATH_OUT, poison_config.NO_ATTACK, poison_config.NO_DEFENSE, poison_config.LOG_NAME,global_sim_model,xp_train,yp_train,xp_test,yp_test,comm_round, poison_config.NUM_SYBILS)
 

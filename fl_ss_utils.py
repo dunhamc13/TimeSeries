@@ -28,6 +28,7 @@ from keras.optimizers import gradient_descent_v2
 #from keras.layers.core import Dense, Dropout, Flatten
 #from keras.layers.convolutional import Conv2D, MaxPooling2D, SeparableConv2D
 #from tensorflow.python.ops.numpy_ops import np_config
+import poison_config
 
 
 
@@ -310,10 +311,10 @@ def replace_1_with_0(path, attack, num_sybils, defense, log_name,data):
 
 def get_model(timesteps,n_features):
     # loading the saved model
-    loaded_model = tf.keras.models.load_model('./IDS_Persistent_Model/persistent_model_tf')
+    #loaded_model = tf.keras.models.load_model('./IDS_Persistent_Model/persistent_model_tf')
     #then call fit
         
-    '''
+    
     sgd = gradient_descent_v2.SGD(learning_rate=0.001, momentum=0.9, nesterov=True)
     
     model = Sequential()
@@ -327,15 +328,10 @@ def get_model(timesteps,n_features):
     #model.add(LSTM(64))
     #model.add(Dropout(.25))
     
-    model.add(Bidirectional(LSTM(29, return_sequences=True), input_shape=(timesteps, n_features)))
-    model.add(Dense(29, activation='relu'))
-    model.add(Dropout(.2))
-    model.add(Bidirectional(LSTM(14, return_sequences=True)))
-    model.add(Dense(14, activation='relu'))
-    model.add(Dropout(.25))
-    model.add(LSTM(7,return_sequences=False))
-    model.add(Dropout(.25))
-    #model.add(Dense(2, activation='softmax'))
+    model.add(Bidirectional(LSTM(29, return_sequences=False), input_shape=(timesteps, n_features)))
+    #model.add(Dense(15, activation='relu'))
+    model.add(Dropout(.3))
+  
     
     model.add(Dense(1, activation='sigmoid'))
     #model.compile(optimizer=keras.optimizers.Adam(), loss=keras.losses.BinaryCrossentropy(), metrics=[keras.metrics.CategoricalAccuracy(),'accuracy'])
@@ -345,21 +341,21 @@ def get_model(timesteps,n_features):
     #        f.write(str(model.summary()))
     #        f.close()
     #print(model.summary())
-    '''
-    return loaded_model
-    #return model
+    
+    #return loaded_model
+    return model
 
 
 def model_training(model,x_train,y_train,epochs=4000):
     #callbacks = EarlyStopping(monitor='accuracy', mode='max', verbose=0, patience=10,
-    callbacks = EarlyStopping(monitor='binary_accuracy', mode='max', verbose=0, patience=75,
+    callbacks = EarlyStopping(monitor='binary_accuracy', mode='max', verbose=0, patience=1000,
                               restore_best_weights=True)
     checkpoint_filepath = './ids_epoch_models/IDS/best_model.h5'
-    mc = ModelCheckpoint(filepath=checkpoint_filepath, monitor='binary_accuracy', mode='max', verbose=0, save_best_only=True)
+    mc = ModelCheckpoint(filepath=checkpoint_filepath, monitor='binary_accuracy', mode='max', verbose=2, save_best_only=True)
     ###### Change me back to 5
     ###### Swapped from 5 to speed things up for generating data
     #batch_size = 5
-    batch_size = 32
+    batch_size = config.BATCH_SIZE
     X_train = x_train.copy()
     Y_train = y_train.copy()
     accuracy_callback = AccuracyCallback((X_train, Y_train))
@@ -375,7 +371,7 @@ def model_training(model,x_train,y_train,epochs=4000):
                               #validation_data=(x_test, (y_test, x_test)),
                               batch_size=batch_size,
                               verbose=0,
-                              callbacks=[callbacks,mc, accuracy_callback]
+                              callbacks=[callbacks,mc]
                               )
     #print("\n\nBest Training Poisoning Accuracy:\n{}".format(max(train_history.history['binary_accuracy'])))
     #with open(config.PATH + config.ATTACK +'_'+ str(config.NUM_SYBILS) +'_sybil_'+ config.DEFENSE +'_IDS_model_'+ config.LOG_NAME,'a') as f:
@@ -386,26 +382,26 @@ def model_training(model,x_train,y_train,epochs=4000):
     #    f.write("\n\nBest Training IDS Accuracy:\n{}".format(max(train_history.history['binary_accuracy'])))
     #f.close()
 
-    '''
-    print(train_history.history.keys())
+   
+    #print(train_history.history.keys())
     plt.plot(train_history.history['binary_accuracy'])
     plt.plot(train_history.history['val_binary_accuracy'])
     plt.title('Model Accuracy')
     plt.ylabel('accuracy')
     plt.xlabel('epoch')
     plt.legend(['train','test'], loc='upper left')
-    plt.savefig('train_accuracy.png')
-    plt.show()
+    plt.savefig('ids_train_accuracy.png')
+    #plt.show()
 
-    plt.plot(train_history.history['binary_loss'])
-    plt.plot(train_history.history['val_binary_loss'])
+    plt.plot(train_history.history['loss'])
+    plt.plot(train_history.history['val_loss'])
     plt.title('Model Loss')
     plt.ylabel('loss')
     plt.xlabel('epoch')
     plt.legend(['train','test'], loc='upper left')
-    plt.savefig('train_loss.png')
-    plt.show()
-    '''
+    plt.savefig('ids_train_loss.png')
+    #plt.show()
+    
     
     #loss_fig = proto_distribution.plot(kind='bar', figsize=(20,16), fontsize=14).get_figure()
     #loss_fig.savefig('proto_distr.pdf')
@@ -912,7 +908,7 @@ def asf(path, attack, defense, log_name,grads, num_sybils=1):
 
 
 
-def make_sim_timesteps(x_data, y_data, num_steps=3):
+def make_sim_timesteps(x_data, y_data, num_steps):
   X = []
   y = []
   #print("In Time Steps\nAppend num_steps:{} rows\n".format(num_steps))
@@ -942,7 +938,7 @@ def make_sim_timesteps(x_data, y_data, num_steps=3):
   x_array = np.array(X)
   y_array = np.vstack([np.array(i) for i in y])
 
-  #print("Check outputs:\nx_array shape : {}\n{}\n\ny_array shape : {}\n{}\n".format(x_array.shape,x_array,y_array.shape,y_array))
+  print("Check outputs:\nx_array shape : {}\n{}\n\ny_array shape : {}\n{}\n".format(x_array.shape,x_array,y_array.shape,y_array))
   return x_array, y_array
 
 
@@ -962,7 +958,7 @@ def sim(path, attack, defense, log_name,grads, num_sybils=1):
     #Get Logits WV
     wv_lg = get_inv_logit(config.PATH, config.ATTACK, config.DEFENSE, config.LOG_NAME,grads, config.NUM_SYBILS)
     #Get Jacard WV
-    wv_jc, alpha = jaccard(config.PATH, config.ATTACK, config.DEFENSE, config.LOG_NAME,grads, config.NUM_SYBILS)
+    #wv_jc, alpha = jaccard(config.PATH, config.ATTACK, config.DEFENSE, config.LOG_NAME,grads, config.NUM_SYBILS)
     #Get Norm Dist T WV
     wv_nd_T,alpha = get_norm_dist(config.PATH, config.ATTACK, config.DEFENSE, config.LOG_NAME,grads, config.NUM_SYBILS)
     #Get std T WV
@@ -970,7 +966,7 @@ def sim(path, attack, defense, log_name,grads, num_sybils=1):
 
 
     #Make Train Test Data sets
-    poison_timesteps = config.POISON_TIMESTEPS
+    poison_timesteps = poison_config.POISON_TIMESTEPS
     if attack == 'label' or attack == 'backdoor':
         if num_sybils == 1:
             y = config.Y_25_CLIENTS_1_SYBIL
@@ -1014,9 +1010,9 @@ def sim(path, attack, defense, log_name,grads, num_sybils=1):
     print("\nwv_lg shape {}\n".format(wv_lg.shape))
     print(wv_lg)
         
-    wv_jc = np.array(wv_jc)
-    print("\nwv_jc shape {}\n".format(wv_jc.shape))
-    print(wv_jc)
+    #wv_jc = np.array(wv_jc)
+    #print("\nwv_jc shape {}\n".format(wv_jc.shape))
+    #print(wv_jc)
     wv_nd_T = np.array(wv_nd_T)
     print("\nwv_nd_T shape {}\n".format(wv_nd_T.shape))
     print(wv_nd_T)
@@ -1028,8 +1024,8 @@ def sim(path, attack, defense, log_name,grads, num_sybils=1):
     xmn = np.column_stack((x,wv_mn))
     xed = np.column_stack((xmn,wv_ed))    
     xlg = np.column_stack((xed,wv_lg))
-    xjc = np.column_stack((xlg,wv_jc))
-    xndT = np.column_stack((xjc,wv_nd_T))
+    #xjc = np.column_stack((xlg,wv_jc))
+    xndT = np.column_stack((xlg,wv_nd_T))
     xstd = np.column_stack((xndT,wv_std))
     xy = np.column_stack((xstd,y))
 
@@ -1042,11 +1038,11 @@ def sim(path, attack, defense, log_name,grads, num_sybils=1):
         mn_val = xy[i][2]
         ed_val = xy[i][3]
         lg_val = xy[i][4]
-        jc_val = xy[i][5]
-        ndT_val = xy[i][6]
-        std_val = xy[i][7]
-        y_val = xy[i][8]
-        list_data = [asf_val,fg_val,mn_val,ed_val,lg_val,jc_val,ndT_val,std_val,y_val]
+        #jc_val = xy[i][5]
+        ndT_val = xy[i][5]
+        std_val = xy[i][6]
+        y_val = xy[i][7]
+        list_data = [asf_val,fg_val,mn_val,ed_val,lg_val,ndT_val,std_val,y_val]
         with open(config.PATH +'poison_training.csv' ,'a',newline='') as f_object:
             writer_object = writer(f_object)
             writer_object.writerow(list_data)
@@ -1065,8 +1061,8 @@ def sim(path, attack, defense, log_name,grads, num_sybils=1):
         f.write(str(wv_ed))
         f.write("\nwv_lg shape {}\n".format(wv_lg.shape))
         f.write(str(wv_lg))
-        f.write("\nwv_jc shape {}\n".format(wv_jc.shape))
-        f.write(str(wv_jc))
+        #f.write("\nwv_jc shape {}\n".format(wv_jc.shape))
+        #f.write(str(wv_jc))
         f.write("\nwv_ndT shape {}\n".format(wv_nd_T.shape))
         f.write(str(wv_nd_T))
         f.write("\nwv_std shape {}\n".format(wv_std.shape))
@@ -1074,6 +1070,7 @@ def sim(path, attack, defense, log_name,grads, num_sybils=1):
         f.write("\nxy shape: {}\n{}".format(xy.shape,xy))
     f.close()
 
+    '''
     if attack == 'label' or attack == 'backdoor':
         if num_sybils == 1:
             train, test = train_test_split(xy, test_size = 8, train_size= 18)
@@ -1088,7 +1085,7 @@ def sim(path, attack, defense, log_name,grads, num_sybils=1):
             train, test = train_test_split(xy, test_size = 15, train_size= 30)
         else:
             train, test = train_test_split(xy, test_size = 20, train_size= 45)
-
+    '''
     #print("train shape after tts {}".format(train.shape))
     #print(train)
     #print("test shape after tts {}".format(test.shape))
@@ -1107,24 +1104,26 @@ def sim(path, attack, defense, log_name,grads, num_sybils=1):
     #TODO ##################################################################
     #######################################################################
     # do y's one time for each feature......................................((((((()))))))
-    x_train = np.delete(train,config.POISON_FEATURES,1)
+    '''
+    x_train = np.delete(train,poison_config.POISON_FEATURES,1)
     y_train_asf_rm = np.delete(train,0,1)
     y_train_fg_rm = np.delete(y_train_asf_rm,0,1)
     y_train_mn_rm = np.delete(y_train_fg_rm,0,1)
     y_train_ed_rm = np.delete(y_train_mn_rm,0,1)
     y_train_lg_rm = np.delete(y_train_ed_rm,0,1)
-    y_train_jc_rm = np.delete(y_train_lg_rm,0,1)
-    y_train_ndT_rm = np.delete(y_train_jc_rm,0,1)
+    #y_train_jc_rm = np.delete(y_train_lg_rm,0,1)
+    y_train_ndT_rm = np.delete(y_train_lg_rm,0,1)
     y_train = np.delete(y_train_ndT_rm,0,1)
-    x_test = np.delete(test,config.POISON_FEATURES,1)
+    x_test = np.delete(test,poison_config.POISON_FEATURES,1)
     y_test_asf_rm = np.delete(test,0,1)
     y_test_fg_rm = np.delete(y_test_asf_rm,0,1)
     y_test_mn_rm = np.delete(y_test_fg_rm,0,1)
     y_test_ed_rm = np.delete(y_test_mn_rm,0,1)
     y_test_lg_rm = np.delete(y_test_ed_rm,0,1)
-    y_test_jc_rm = np.delete(y_test_lg_rm,0,1)
-    y_test_ndT_rm = np.delete(y_test_jc_rm,0,1)
+    #y_test_jc_rm = np.delete(y_test_lg_rm,0,1)
+    y_test_ndT_rm = np.delete(y_test_lg_rm,0,1)
     y_test = np.delete(y_test_ndT_rm,0,1)
+    '''
     #print("x_train shape after deletes {}".format(x_train.shape))
     #print(x_train)
     #print("x_test shape after deletes {}".format(x_test.shape))
@@ -1134,11 +1133,21 @@ def sim(path, attack, defense, log_name,grads, num_sybils=1):
     #print("y_test shape after deletes {}".format(y_test.shape))
     #print(y_test)
 
+    x_full = np.delete(xy,poison_config.POISON_FEATURES,1)
+    y_train_asf_rm = np.delete(xy,0,1)
+    y_train_fg_rm = np.delete(y_train_asf_rm,0,1)
+    y_train_mn_rm = np.delete(y_train_fg_rm,0,1)
+    y_train_ed_rm = np.delete(y_train_mn_rm,0,1)
+    y_train_lg_rm = np.delete(y_train_ed_rm,0,1)
+    #y_train_jc_rm = np.delete(y_train_lg_rm,0,1)
+    y_train_ndT_rm = np.delete(y_train_lg_rm,0,1)
+    labels_full = np.delete(y_train_ndT_rm,0,1)
+    #y = np.transpose(y)
     # Use make timesteps for LSTM timesteps.
     #print("sending x_train and y_train to make times steps {}".format(poison_timesteps))
-    x_train,y_train= make_sim_timesteps(np.array(x_train),np.array(y_train),poison_timesteps)
+    data,labels = make_sim_timesteps(np.array(x_full),np.array(labels_full),poison_timesteps)
     #print("sending x_test and y_test to make times steps {}".format(poison_timesteps))
-    x_test, y_test = make_sim_timesteps(np.array(x_test), np.array(y_test), poison_timesteps)
+    #x_test, y_test = make_sim_timesteps(np.array(x_test), np.array(y_test), poison_timesteps)
     #print("x_train shape after time steps {}\n".format(x_train.shape))
     #print(x_train)
     #print("y_train shape after time steps {}\n".format(y_train.shape))
@@ -1154,14 +1163,56 @@ def sim(path, attack, defense, log_name,grads, num_sybils=1):
     #assert x_train.shape[0] == y_train.shape[0]
     #assert x_test.shape[0] == y_test.shape[0]    
 
+    xy = np.column_stack((data,labels))
+
+    if attack == 'label' or attack == 'backdoor':
+        if num_sybils == 1:
+            train, test = train_test_split(xy, test_size = 8, train_size= 18)
+        elif num_sybils == 5:
+            train, test = train_test_split(xy, test_size = 10, train_size= 20)
+        else:
+            train, test = train_test_split(xy, test_size = 12, train_size= 23)
+    if attack == 'dba':
+        if num_sybils == 1:
+            train, test = train_test_split(xy, test_size = 9, train_size= 20)
+        elif num_sybils == 5:
+            train, test = train_test_split(xy, test_size = 15, train_size= 30)
+        else:
+            train, test = train_test_split(xy, test_size = 20, train_size= 45)
+
+    x_train = np.delete(train,poison_config.POISON_FEATURES,1)
+    y_train_asf_rm = np.delete(train,0,1)
+    y_train_fg_rm = np.delete(y_train_asf_rm,0,1)
+    y_train_mn_rm = np.delete(y_train_fg_rm,0,1)
+    y_train_ed_rm = np.delete(y_train_mn_rm,0,1)
+    y_train_lg_rm = np.delete(y_train_ed_rm,0,1)
+    #y_train_jc_rm = np.delete(y_train_lg_rm,0,1)
+    y_train_ndT_rm = np.delete(y_train_lg_rm,0,1)
+    y_train = np.delete(y_train_ndT_rm,0,1)
+    x_test = np.delete(test,poison_config.POISON_FEATURES,1)
+    y_test_asf_rm = np.delete(test,0,1)
+    y_test_fg_rm = np.delete(y_test_asf_rm,0,1)
+    y_test_mn_rm = np.delete(y_test_fg_rm,0,1)
+    y_test_ed_rm = np.delete(y_test_mn_rm,0,1)
+    y_test_lg_rm = np.delete(y_test_ed_rm,0,1)
+    #y_test_jc_rm = np.delete(y_test_lg_rm,0,1)
+    y_test_ndT_rm = np.delete(y_test_lg_rm,0,1)
+    y_test = np.delete(y_test_ndT_rm,0,1)
+
     x_train = np.asarray(x_train)
     x_test = np.asarray(x_test)
+    y_train = np.asarray(x_train)
+    y_test = np.asarray(x_test)
+        
+    data = np.asarray(data)
+    labels = np.asarray(labels)
     #print("x_train shape after reshape {}".format(x_train.shape))
     #print("x_test shape  after reshape {}".format(x_test.shape))
-    full_set = np.append(x_train,x_test,axis=0)
+    #x_full = np.append(x_train,x_test,axis=0)
+    #y_full = np.append(y_train,y_test,axis=0)
     #print("full_set shape {}".format(full_set.shape))
     # wv is the weight
-    return x_train, x_test, y_train, y_test, full_set
+    return x_train, x_test, y_train, y_test, data, labels
 
 # client_grads = Compute gradients from all the clients
 def aggregate_gradients(path, attack, defense, log_name, client_grads, num_sybils=1):
@@ -1178,9 +1229,9 @@ def aggregate_gradients(path, attack, defense, log_name, client_grads, num_sybil
         grads[i] = np.reshape(client_grads[i][-2].data, (grad_len))
 
     if defense == 'sim':
-        x_train, x_test, y_train, y_test, full_set  = sim(config.PATH, config.ATTACK, config.DEFENSE, config.LOG_NAME,grads, config.NUM_SYBILS)
+        x_train, x_test, y_train, y_test, x_full, y_full  = sim(config.PATH, config.ATTACK, config.DEFENSE, config.LOG_NAME,grads, config.NUM_SYBILS)
 
-    return x_train, x_test, y_train, y_test, full_set
+    return x_train, x_test, y_train, y_test, x_full, y_full
 
 def weight_scalling_factor(clients_trn_data, client_name):
     local_count = 1
@@ -1218,10 +1269,10 @@ def sum_scaled_weights(path, attack, defense, log_name,scaled_weight_list, poiso
     ##################################
     ##################################
     #### uncomment when you find a way to ensure one honest client
-    #print("After Nodes removed: Rows {} cols {}".format(len(honest_clients),len(honest_clients[0])))
-    #with open(config.PATH + config.ATTACK +'_'+ str(config.NUM_SYBILS) +'_sybil_'+ config.DEFENSE +'_poison_model_'+ config.LOG_NAME,'a') as f:
-    #        f.write("After Nodes removed: Rows {} cols {}".format(len(honest_clients),len(honest_clients[0])))
-    #f.close()
+    print("After Nodes removed: Rows {} cols {}".format(len(honest_clients),len(honest_clients[0])))
+    with open(config.PATH + config.ATTACK +'_'+ str(config.NUM_SYBILS) +'_sybil_'+ config.DEFENSE +'_poison_model_'+ config.LOG_NAME,'a') as f:
+            f.write("After Nodes removed: Rows {} cols {}".format(len(honest_clients),len(honest_clients[0])))
+    f.close()
 
 
     avg_grad = []

@@ -33,29 +33,49 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 def get_sim_model(timesteps,n_features):
     # loading the saved model
-    #loaded_model = tf.keras.models.load_model('./POISON_Persistent_Model/persistent_model_tf')
+    loaded_model = tf.keras.models.load_model('./POISON_Persistent_Model/persistent_model_tf')
     #then call fit
     
     
     #sgd = gradient_descent_v2.SGD(learning_rate=0.01, momentum=0.9, nesterov=True)
-    batch_size = poison_config.POISON_BATCH_SIZE
-    model = Sequential()
+    #batch_size = poison_config.POISON_BATCH_SIZE
+    #model = Sequential()
 
-    ###these two are good for non statefull
-    #model.add(Bidirectional(LSTM(4, return_sequences=False, activation='tanh'),input_shape=(timesteps, n_features)))
+
+    #model.add(Bidirectional(LSTM(14, return_sequences=False, activation='tanh'),input_shape=(timesteps, n_features)))
+    #model.add(Dense(7, activation='relu'))
+    
+    
+    
     #model.add(Dropout(.3))
 
+
+
     ####### this one works 
-    model.add(Bidirectional(LSTM(8,batch_input_shape=(batch_size,timesteps, n_features),stateful=True)))
+    ###these two are good for non statefull
+    ##### was 4 nerurons trying 2 cuz over fit  - change return sequences to Flase
+    #model.add(Bidirectional(LSTM(32, return_sequences=False, activation='tanh'),input_shape=(timesteps, n_features)))
+
+
+    #model.add(Bidirectional(LSTM(7,batch_input_shape=(batch_size,timesteps, n_features),stateful=True)))
     #model.add(LSTM(8,batch_input_shape=(batch_size,timesteps, n_features),stateful=True))
 
+    #model.add(LSTM(256, return_sequences=True, input_shape=(timesteps, n_features)))
+    #model.add(Dense(128, activation='relu'))
+    #model.add(Dropout(.2))
+    #model.add(LSTM(128, return_sequences=True))
+    #model.add(Dense(64, activation='relu'))
+    #model.add(Dropout(.25))
+    #model.add(LSTM(64))
+    #model.add(Dropout(.25))
+
     
-    model.add(Dense(1, activation='sigmoid'))
+    #model.add(Dense(1, activation='sigmoid'))
     
     #model.compile(optimizer=keras.optimizers.Adam(), loss=keras.losses.BinaryCrossentropy(), metrics=[keras.metrics.CategoricalAccuracy(),'accuracy'])
     
     ### used to sgd
-    model.compile(optimizer='adam', loss=keras.losses.BinaryCrossentropy(), metrics=[keras.metrics.BinaryAccuracy()])
+    #model.compile(optimizer='adam', loss=keras.losses.BinaryCrossentropy(), metrics=[keras.metrics.BinaryAccuracy()])
     
     #model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
     #with open('C:\\Users\\ChristianDunham\\source\\repos\\Intrusion_Detection\\data\\model_summary.txt','a') as f:
@@ -65,10 +85,10 @@ def get_sim_model(timesteps,n_features):
 
     
 
-    #return loaded_model
-    return model
+    return loaded_model
+    #return model
 
-def model_sim_training(model,x_train,y_train,x_test,y_test,epochs):
+def model_sim_training(model,x_train,y_train,x_test,y_test,epochs, cycle):
     callbacks = EarlyStopping(monitor='binary_accuracy', mode='max', verbose=0, patience=1000,
                               restore_best_weights=True)
     checkpoint_filepath = './poison_epoch_models/POISON/best_model.h5'
@@ -79,24 +99,24 @@ def model_sim_training(model,x_train,y_train,x_test,y_test,epochs):
     accuracy_callback = AccuracyCallback((X_train, Y_train))
 
 
-    class_weights = {0:1.25,1:1.}
+    class_weights = {0:1.3,1:1.}
     #model = load_model(checkpoint_filepath)
     #use verbose = 1 or 2 to see epoch progress pbar... each step is examples / batch
-    for i in range(poison_config.POISON_TNG_CYCLES):
-        train_history = model.fit(x_train,
-                                    y_train,
-                                    epochs=epochs,
-                                    validation_split=.1,
-                                    class_weight=class_weights,
-                                    shuffle=False,
-                                    #validation_data=(x_test, (y_test, x_test)),
-                                    #validation_data=(x_test, y_test),
-                                    batch_size=batch_size,
-                                    verbose=2,
-                                    #callbacks=[callbacks,mc, accuracy_callback]
-                                    callbacks=[callbacks,mc]
-                                    )
-        model.reset_states()
+    #for i in range(poison_config.POISON_TNG_CYCLES):
+    train_history = model.fit(x_train,
+                                y_train,
+                                epochs=epochs,
+                                validation_split=.25,
+                                class_weight=class_weights,
+                                shuffle=False,
+                                #validation_data=(x_test, (y_test, x_test)),
+                                #validation_data=(x_test, y_test),
+                                batch_size=batch_size,
+                                verbose=2,
+                                #callbacks=[callbacks,mc, accuracy_callback]
+                                callbacks=[callbacks,mc]
+                                )
+    #model.reset_states()
     print("\n\nBest Training Poisoning Accuracy:\n{}".format(max(train_history.history['binary_accuracy'])))
     with open(config.PATH + config.ATTACK +'_'+ str(config.NUM_SYBILS) +'_sybil_'+ config.DEFENSE +'_POISON_model_'+ config.LOG_NAME,'a') as f:
         f.write("\n\nBest Training Poisoning Accuracy:\n{}".format(max(train_history.history['binary_accuracy'])))
@@ -109,7 +129,7 @@ def model_sim_training(model,x_train,y_train,x_test,y_test,epochs):
     plt.ylabel('accuracy')
     plt.xlabel('epoch')
     plt.legend(['train','test'], loc='upper left')
-    plt.savefig('train_accuracy.png')
+    plt.savefig(str(cycle) + 'train_accuracy.png')
     #plt.show()
 
     plt.plot(train_history.history['loss'], label="Train")
@@ -118,7 +138,7 @@ def model_sim_training(model,x_train,y_train,x_test,y_test,epochs):
     plt.ylabel('loss')
     plt.xlabel('epoch')
     #plt.legend(['loss','val_loss'], loc='upper left')
-    plt.savefig('train_loss.png')
+    plt.savefig(str(cycle) + 'train_loss.png')
     #plt.show()
 
     model = load_model(checkpoint_filepath)
@@ -127,36 +147,15 @@ def model_sim_training(model,x_train,y_train,x_test,y_test,epochs):
     return model
 
 def model_sim_evaluate(path, attack, defense, log_name,model,x_train,y_train,x_test,y_test,epochs, num_sybils):
-    '''
-    test_labels = np.copy(y_test).astype("int32")
-    for i in range(len(x_train)):
-        X, y = x_train[i], y_train[i]
-        yhat = forecast_lstm(model, 1, X)
-        # forecast test dataset
-        predictions = list()
-        for i in range(len(x_test)):
-            # predict
-            X, y = x_test[i, 0:-1], y_test[i, -1]
-            yhat = forecast_lstm(model, 1, X)
-            # invert scaling
-            #yhat = invert_scale(scaler, X, yhat)
-            # invert differencing
-            #yhat = inverse_difference(raw_values, yhat, len(test_scaled)+1-i)
-            # store forecast
-            predictions.append(yhat)
-        # report performance
-        testAcc = accuracy_score(test_labels, predictions)
-        print("here")
-        print('%d) Test Accuracy: %.3f' % (i+1, testAcc))
-    '''
-    
-    #scores = model.evalutate(x_train, y_train, config.POISON_BATCH_SIZE, verbose=0)
+    scores = model.evaluate(x_test, y_test, poison_config.POISON_BATCH_SIZE, verbose=2)
     #model.reset_states()
-    #print("Model Accuracy: %.2f%%" %(scores[1]*100))
+    print("Local Poison Model Accuracy: %.2f%%" %(scores[1]*100))
     train_pred = (model.predict(x_train,batch_size=poison_config.POISON_BATCH_SIZE, steps=None, callbacks=None, max_queue_size=10, workers=1, use_multiprocessing=False,verbose=0) > .5).astype("int32") 
+    #train_pred = model.predict(x_train) 
     #model.reset_states()
     train_labels = np.copy(y_train).astype("int32")
     test_pred = (model.predict(x_test,batch_size=poison_config.POISON_BATCH_SIZE, steps=None, callbacks=None, max_queue_size=10, workers=1, use_multiprocessing=False,verbose=0) > .5).astype("int32") 
+    #test_pred = model.predict(x_test) 
     #model.reset_states()
     test_labels = np.copy(y_test).astype("int32")
     print("predicted value:\n{}".format(test_pred))
@@ -181,6 +180,51 @@ def model_sim_evaluate(path, attack, defense, log_name,model,x_train,y_train,x_t
         writer_object.writerow(list_data)
         f_object.close()
     with open(path + attack +'_'+ str(num_sybils) +'_sybil_'+ defense +'_poison_model_'+ log_name,'a') as f:
+            f.write('\n#####################  Local  POISON         ###############################################\n')
+            f.write('\n############################################################################################\n')
+            f.write('\ncomm_round: {} | global_test_acc: {:.3%} | global_f1: {} | global_precision: {}\n'.format(epochs, testAcc, f1, precision))
+            f.write(str(classes_report))
+            #f.write("\nAccuracy per class:\n{}\n{}\n".format(matrix,matrix.diagonal()/matrix.sum(axis=1)))
+    f.close()
+    print('\n#################### Local    POISON         ###############################################\n')
+    print('\n############################################################################################\n')
+    print('\ncomm_round: {} |global_train_acc: {:.3%}|| global_test_acc: {:.3%} | global_f1: {} | global_test_precision: {}'.format(epochs, trainAcc, testAcc, f1, precision))
+    print(classes_report)
+    #print("\nAccuracy per class:\n{}\n{}\n".format(matrix,(matrix.diagonal()/matrix.sum(axis=1))))
+    #print(matrix)
+    print(cmtx)
+
+
+
+def model_sim_full_evaluate(path, attack, defense, log_name,model,x,y,epochs, num_sybils):
+    scores = model.evaluate(x, y, poison_config.POISON_BATCH_SIZE, verbose=2)
+    #model.reset_states()
+    print("Model Accuracy: %.2f%%" %(scores[1]*100))
+    pred = (model.predict(x,batch_size=poison_config.POISON_BATCH_SIZE, steps=None, callbacks=None, max_queue_size=10, workers=1, use_multiprocessing=False,verbose=0) > .5).astype("int32") 
+    #test_pred = model.predict(x_test) 
+    #model.reset_states()
+    labels = np.copy(y).astype("int32")
+    print("predicted value:\n{}".format(pred))
+    print("label value:\n{}".format(labels))
+    testAcc = accuracy_score(labels, pred)
+    f1 = f1_score(labels, pred, zero_division=0)
+    precision = precision_score(labels, pred)
+    classes_report = classification_report(labels, pred)
+    #matrix = confusion_matrix(test_labels, test_pred)
+    unique_label = np.unique([labels, pred])
+    cmtx = pd.DataFrame(
+        confusion_matrix(labels, pred, labels=unique_label), 
+        index=['true:{:}'.format(x) for x in unique_label], 
+        columns=['pred:{:}'.format(x) for x in unique_label]
+    )
+
+
+    list_data = [epochs, testAcc,f1, precision]
+    with open(config.PATH + config.ATTACK +'_'+ str(config.NUM_SYBILS) +'_sybil_'+ config.DEFENSE +'_poison_model_results.csv' ,'a',newline='') as f_object:
+        writer_object = writer(f_object)
+        writer_object.writerow(list_data)
+        f_object.close()
+    with open(path + attack +'_'+ str(num_sybils) +'_sybil_'+ defense +'_poison_model_'+ log_name,'a') as f:
             f.write('\n#####################         POISON         ###############################################\n')
             f.write('\n############################################################################################\n')
             f.write('\ncomm_round: {} | global_test_acc: {:.3%} | global_f1: {} | global_precision: {}\n'.format(epochs, testAcc, f1, precision))
@@ -189,7 +233,7 @@ def model_sim_evaluate(path, attack, defense, log_name,model,x_train,y_train,x_t
     f.close()
     print('\n#####################         POISON         ###############################################\n')
     print('\n############################################################################################\n')
-    print('\ncomm_round: {} |global_train_acc: {:.3%}|| global_test_acc: {:.3%} | global_f1: {} | global_test_precision: {}'.format(epochs, trainAcc, testAcc, f1, precision))
+    print('\ncomm_round: {} | global_test_acc: {:.3%} | global_f1: {} | global_test_precision: {}'.format(epochs, testAcc, f1, precision))
     print(classes_report)
     #print("\nAccuracy per class:\n{}\n{}\n".format(matrix,(matrix.diagonal()/matrix.sum(axis=1))))
     #print(matrix)

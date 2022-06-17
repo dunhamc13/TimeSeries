@@ -169,8 +169,8 @@ def simulation(path, path_in, log_name, table_name, comms_round, attack='label',
                 f.write("\nNumber of total clients and sybils {}\n".format(n_clients))
                 f.close()
     print("Number of total clients and sybils {}\n".format(n_clients))
-    poison_timesteps = config.POISON_TIMESTEPS
-    poison_features = config.POISON_FEATURES
+    poison_timesteps = poison_config.POISON_TIMESTEPS
+    poison_features = poison_config.POISON_FEATURES
     global_model = get_model(timesteps, n_features)
     global_sim_model = get_sim_model(poison_timesteps,poison_features)
     
@@ -208,7 +208,7 @@ def simulation(path, path_in, log_name, table_name, comms_round, attack='label',
 
             # 2. Train local model
             local_tic = time.perf_counter()             
-            local_model = model_training(local_model, data[0], data[1],epochs=1)
+            local_model = model_training(local_model, data[0], data[1],config.EPOCHS)
             local_toc = time.perf_counter() 
             #with open(path + attack +'_'+ str(num_sybils) +'_sybil_'+ defense +'_'+ log_name,'a') as f:
             #    f.write("\nTotal time for {} : local training was {}".format(client_name, local_toc-local_tic))
@@ -243,8 +243,10 @@ def simulation(path, path_in, log_name, table_name, comms_round, attack='label',
             model_evaluate(config.PATH, config.ATTACK, config.DEFENSE, config.LOG_NAME,global_model,x_train,y_train,x_test,y_test,comm_round, config.NUM_SYBILS)
         else:
             #Get Poison Data to Train and Test : and full set to use for IDS Node removal
-            xp_train,xp_test,yp_train,yp_test, full_set = aggregate_gradients(config.PATH, config.ATTACK, config.DEFENSE, config.LOG_NAME,client_grads_unscaled, config.NUM_SYBILS)
+            #xp_train,xp_test,yp_train,yp_test, full_set, y = aggregate_gradients(config.PATH, config.ATTACK, config.DEFENSE, config.LOG_NAME,client_grads_unscaled, config.NUM_SYBILS)
+            xp_train, xp_test, yp_train, yp_test, full_set, y = aggregate_gradients(config.PATH, config.ATTACK, config.DEFENSE, config.LOG_NAME,client_grads_unscaled, config.NUM_SYBILS)
 
+            ### For generating data
             #Get local model for batch of gradients and set weights
             local_sim_model = get_sim_model(poison_timesteps,poison_features)
             local_sim_model.set_weights(global_sim_weights)
@@ -263,10 +265,11 @@ def simulation(path, path_in, log_name, table_name, comms_round, attack='label',
             #Evaluate Performance of Poison Model
             xp_train = np.asarray(xp_train)
             xp_test = np.asarray(xp_test)
-            model_sim_evaluate(config.PATH, config.ATTACK, config.DEFENSE, config.LOG_NAME,global_sim_model,xp_train,yp_train,xp_test,yp_test,comm_round, config.NUM_SYBILS)
+            model_sim_evaluate(config.PATH, config.ATTACK, config.DEFENSE, config.LOG_NAME,global_sim_model,xp_train, xp_test,yp_train,yp_test,comm_round, config.NUM_SYBILS)
+            model_sim_full_evaluate(config.PATH, config.ATTACK, config.DEFENSE, config.LOG_NAME,global_sim_model,full_set,y,comm_round, config.NUM_SYBILS)
             
             #For IDS use full set and get predictions to remove bad nodes
-            poison_scaling = (local_sim_model.predict(full_set) > .5).astype("int32")
+            poison_scaling = (global_sim_model.predict(full_set,batch_size=poison_config.POISON_BATCH_SIZE, steps=None, callbacks=None, max_queue_size=10, workers=1, use_multiprocessing=False,verbose=0) > .5).astype("int32") 
             print("poison scaling shape: {}\n{}".format(poison_scaling.shape,poison_scaling))
             with open(config.PATH + config.ATTACK +'_'+ str(config.NUM_SYBILS) +'_sybil_'+ config.DEFENSE +'_poison_model_'+ config.LOG_NAME,'a') as f:
                     f.write("poison scaling shape: {}\n{}".format(poison_scaling.shape,poison_scaling))
